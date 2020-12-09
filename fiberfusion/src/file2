@@ -1,0 +1,105 @@
+<html> 
+	<head> 
+		<script> 
+			function form() { 
+				var firstname = 
+					document.forms["RegForm"]["Firstname"]; 
+				var lastname = 
+					document.forms["RegForm"]["lastname"];
+				var email = 
+					document.forms["RegForm"]["EMail"]; 
+				var phone = 
+					document.forms["RegForm"]["Phone"];
+				var address = 
+					document.forms["RegForm"]["Address"]; 
+
+				if (name.value == "") { 
+					window.alert("Please enter your name."); 
+					firstname.focus(); 
+					return false; 
+				} 
+
+				if (name.value == "") { 
+					window.alert("Please enter your name."); 
+					lastname.focus(); 
+					return false; 
+				} 
+
+
+				if (email.value == "") { 
+					window.alert( 
+					"Please enter a valid e-mail address."); 
+					email.focus(); 
+					return false; 
+				} 
+
+				if (phone.value == "") { 
+					window.alert("Please enter your address."); 
+					phone.focus(); 
+					return false; 
+				} 
+
+				if (address.value == "") { 
+					window.alert("Please enter your address."); 
+					address.focus(); 
+					return false; 
+				} 
+
+				alert('Successfully transmitted data!');
+				result_text.innerHTML = "Success!";
+
+				return true; 
+			} 
+		</script> 
+
+		<style> 
+			div { 
+				box-sizing: border-box; 
+				width: 100%; 
+				border: 100px solid black; 
+				float: left; 
+				align-content: center; 
+				align-items: center; 
+			} 
+
+			form { 
+				margin: 0 auto; 
+				width: 600px; 
+			} 
+		</style> 
+	</head> 
+
+	<body> 
+		<h1 style="text-align: center;">REGISTRATION FORM</h1> 
+		<form name="RegForm" action="/submit.php"
+			onsubmit="return form()" method="post"> 
+			<p>First Name: <input type="text"
+							size="65" name="Firstname" /></p> 
+			<br /> 
+			<p>Last Name: <input type="text"
+							size="65" name="Lastname" /></p> 
+			<br /> 
+
+			<p>E-mail Address: <input type="text"
+							size="65" name="EMail" /></p> 
+			<br /> 
+			
+			<p>Phone: <input type="number"
+							size="65" name="Phone" /></p> 
+			<br /> 
+
+			<p>Address: <input type="text"
+							size="65" name="Address" /></p> 
+			<br /> 
+
+			<p> 
+				<input type="submit"
+					value="Send" name="Submit" /> 
+				<input type="reset"
+					value="Reset" name="Reset" /> 
+			</p> 
+		</form> 
+	</body> 
+</html> 
+
+
