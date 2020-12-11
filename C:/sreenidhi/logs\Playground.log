@@ -1,0 +1,546 @@
+2020-12-09 22:45:27,542 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Attempting to load configurations
+2020-12-09 22:45:27,550 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/dbconfig.xml
+2020-12-09 22:45:27,551 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/dbconfig.xml
+2020-12-09 22:45:27,927 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/drivers.xml
+2020-12-09 22:45:27,927 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/drivers.xml
+2020-12-09 22:45:27,932 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/mailer.xml
+2020-12-09 22:45:27,933 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/mailer.xml
+2020-12-09 22:45:27,938 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/proxy.xml
+2020-12-09 22:45:27,938 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/proxy.xml
+2020-12-09 22:45:27,944 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/execution_conf.xml
+2020-12-09 22:45:27,945 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/execution_conf.xml
+2020-12-09 22:45:27,950 - APP - INFO - com.gsd.sreenidhi.cheetah.database.DBInitializer:Initialize DB Connections
+2020-12-09 22:45:27,951 - APP - INFO - DBInitializer:Database usage Disabled... :( 
+2020-12-09 22:45:27,951 - APP - INFO - CheetahEngine:Loading Properties file..
+2020-12-09 22:45:27,953 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Loading property: resources/properties/application.properties - -1126869938
+2020-12-09 22:45:27,954 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Properties file loaded successfully
+2020-12-09 22:45:27,954 - APP - INFO - CheetahEngine:Properties file loaded successfully.
+2020-12-09 22:45:27,954 - APP - INFO - CheetahEngine:Properties have been successfully sanitized.
+2020-12-09 22:45:27,955 - APP - INFO - CucumberRunnerTest:Suite Start
+2020-12-09 22:45:27,956 - APP - INFO - CucumberRunnerTest:Transaction ID: 36d90cc8-59f2-4bdc-8677-c8e296ab75c9
+2020-12-09 22:45:27,969 - APP - INFO - CucumberRunnerTest:Transaction Timestamp: Wed Dec 09 22:45:27 IST 2020
+2020-12-09 22:45:27,970 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-09 22:45:27,971 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-09 22:45:27,971 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-09 22:45:28,007 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-09 22:45:28,007 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-09 22:45:28,007 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-09 22:45:28,008 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Attempting to start Video Recording.
+2020-12-09 22:45:28,008 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating Report (VIDEO) Directories: C:/sreenidhi/logs/Reports/VIDEO/sampleStructure/36d90cc8-59f2-4bdc-8677-c8e296ab75c9
+2020-12-09 22:45:28,739 - APP - INFO - Specialized Screen Recorder:Validating movie file location
+2020-12-09 22:45:28,804 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Video Recording started.
+2020-12-09 22:45:28,804 - APP - INFO - CheetahEngine:Generating Base
+2020-12-09 22:45:28,805 - APP - INFO - CheetahEngine:Initializing DB constants
+2020-12-09 22:45:28,805 - APP - INFO - CheetahEngine:Initializing Cheetah Classes
+2020-12-09 22:45:28,830 - APP - INFO - CheetahEngine:Execution started.. from CheetahEngine.
+2020-12-09 22:45:28,831 - APP - INFO - CheetahEngine:Property initialization complete.
+2020-12-09 22:45:28,831 - APP - INFO - CheetahEngine:Checking Highlights functionality...
+2020-12-09 22:45:28,831 - APP - INFO - CheetahEngine:***** Highlights enabled... ***** 
+2020-12-09 22:45:28,831 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-09 22:45:28,832 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-09 22:45:28,832 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-09 22:45:28,832 - APP - INFO - CheetahEngine:Initializing Base
+2020-12-09 22:45:28,832 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-09 22:45:28,832 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy settings Implementation.
+2020-12-09 22:45:28,832 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:--------------------------------------------------------
+2020-12-09 22:45:28,833 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy Requirement vaildated to false...
+2020-12-09 22:45:28,833 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-09 22:45:28,833 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Implementing HTTP SSL Certificate Trusts
+2020-12-09 22:51:43,200 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Attempting to load configurations
+2020-12-09 22:51:43,204 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/dbconfig.xml
+2020-12-09 22:51:43,205 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/dbconfig.xml
+2020-12-09 22:51:43,602 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/drivers.xml
+2020-12-09 22:51:43,602 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/drivers.xml
+2020-12-09 22:51:43,607 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/mailer.xml
+2020-12-09 22:51:43,607 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/mailer.xml
+2020-12-09 22:51:43,612 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/proxy.xml
+2020-12-09 22:51:43,612 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/proxy.xml
+2020-12-09 22:51:43,617 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/execution_conf.xml
+2020-12-09 22:51:43,618 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/execution_conf.xml
+2020-12-09 22:51:43,626 - APP - INFO - com.gsd.sreenidhi.cheetah.database.DBInitializer:Initialize DB Connections
+2020-12-09 22:51:43,627 - APP - INFO - DBInitializer:Database usage Disabled... :( 
+2020-12-09 22:51:43,628 - APP - INFO - CheetahEngine:Loading Properties file..
+2020-12-09 22:51:43,631 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Loading property: resources/properties/application.properties - -1126869938
+2020-12-09 22:51:43,632 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Properties file loaded successfully
+2020-12-09 22:51:43,633 - APP - INFO - CheetahEngine:Properties file loaded successfully.
+2020-12-09 22:51:43,634 - APP - INFO - CheetahEngine:Properties have been successfully sanitized.
+2020-12-09 22:51:43,634 - APP - INFO - CucumberRunnerTest:Suite Start
+2020-12-09 22:51:43,640 - APP - INFO - CucumberRunnerTest:Transaction ID: 22a01146-7f91-4747-b497-7ffc43d90d35
+2020-12-09 22:51:43,654 - APP - INFO - CucumberRunnerTest:Transaction Timestamp: Wed Dec 09 22:51:43 IST 2020
+2020-12-09 22:51:43,656 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-09 22:51:43,656 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-09 22:51:43,656 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-09 22:51:43,693 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-09 22:51:43,694 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-09 22:51:43,694 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-09 22:51:43,695 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Attempting to start Video Recording.
+2020-12-09 22:51:43,697 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating Report (VIDEO) Directories: C:/sreenidhi/logs/Reports/VIDEO/sampleStructure/22a01146-7f91-4747-b497-7ffc43d90d35
+2020-12-09 22:51:44,292 - APP - INFO - Specialized Screen Recorder:Validating movie file location
+2020-12-09 22:51:44,321 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Video Recording started.
+2020-12-09 22:51:44,321 - APP - INFO - CheetahEngine:Generating Base
+2020-12-09 22:51:44,321 - APP - INFO - CheetahEngine:Initializing DB constants
+2020-12-09 22:51:44,322 - APP - INFO - CheetahEngine:Initializing Cheetah Classes
+2020-12-09 22:51:44,334 - APP - INFO - CheetahEngine:Execution started.. from CheetahEngine.
+2020-12-09 22:51:44,336 - APP - INFO - CheetahEngine:Property initialization complete.
+2020-12-09 22:51:44,336 - APP - INFO - CheetahEngine:Checking Highlights functionality...
+2020-12-09 22:51:44,337 - APP - INFO - CheetahEngine:***** Highlights enabled... ***** 
+2020-12-09 22:51:44,337 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-09 22:51:44,337 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-09 22:51:44,337 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-09 22:51:44,337 - APP - INFO - CheetahEngine:Initializing Base
+2020-12-09 22:51:44,337 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-09 22:51:44,338 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy settings Implementation.
+2020-12-09 22:51:44,338 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:--------------------------------------------------------
+2020-12-09 22:51:44,338 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy Requirement vaildated to false...
+2020-12-09 22:51:44,338 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-09 22:51:44,339 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Implementing HTTP SSL Certificate Trusts
+2020-12-09 22:51:44,824 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Report to CSV File: sampleStructure_12092020_105144.csv
+2020-12-09 22:51:44,825 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating Report Directories: C:/sreenidhi/logs/Reports/CSV/sampleStructure/Transactions
+2020-12-09 22:51:44,825 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/CSV/sampleStructure/Transactions/sampleStructure_12092020_105144.csv
+2020-12-09 22:51:44,826 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Reporting Bean Count: 0
+2020-12-09 22:51:44,828 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/CSV/sampleStructure/sampleStructure_suite.csv
+2020-12-09 22:51:44,828 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/CSV/sampleStructure/sampleStructure_suite.csv
+2020-12-09 22:51:44,859 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/central.csv
+2020-12-09 22:51:44,860 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/central_new.csv
+2020-12-09 22:51:44,861 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/central.csv
+2020-12-09 22:51:44,866 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating Report Directories: C:/sreenidhi/logs/Reports/TransactionHistory/2020
+2020-12-09 22:51:44,866 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/TransactionHistory/2020/testSuite_12072020.csv
+2020-12-09 22:51:44,867 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/TransactionHistory/2020/testSuite_12072020.csv
+2020-12-09 22:51:44,874 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Initializing PDF Reporting Enging
+2020-12-09 22:51:44,875 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Writing Report to pdf File: sampleStructure_12092020_105144.pdf
+2020-12-09 22:51:44,934 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Creating Report Directories: C:/sreenidhi/logs/Reports/PDF/sampleStructure
+2020-12-09 22:51:44,935 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating PDF File: C:/sreenidhi/logs/Reports/PDF/sampleStructure/sampleStructure_12092020_105144.pdf
+2020-12-09 22:51:45,044 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Title
+2020-12-09 22:51:45,106 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Summary
+2020-12-09 22:51:45,109 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Data
+2020-12-09 22:51:45,202 - APP - INFO - Chart:Image saved to location: ./target/summary
+2020-12-09 22:51:48,020 - APP - INFO - Chart:Converting Image to Byte
+2020-12-09 22:51:48,134 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Data
+2020-12-09 22:51:48,137 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Finalizing Report
+2020-12-09 22:51:48,141 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Finalizing Report
+2020-12-09 22:51:48,141 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Writing Content to PDF File
+2020-12-09 22:51:48,532 - APP - ERROR - Exception: null
+Original Exception: 
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+		org.junit.runners.Suite.runChild(Suite.java:128)
+		org.junit.runners.Suite.runChild(Suite.java:27)
+		org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+		org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+		org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+		org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+		org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+		org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+		org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+		org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+		org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+		org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+		org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+2020-12-09 22:51:48,535 - APP - ERROR - ExtendedCucumberRunner:Exception: null
+Original Exception: 
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+		org.junit.runners.Suite.runChild(Suite.java:128)
+		org.junit.runners.Suite.runChild(Suite.java:27)
+		org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+		org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+		org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+		org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+		org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+		org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+		org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+		org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+		org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+		org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+		org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+	at com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at net.sf.dynamicreports.design.transformation.TemplateTransform.getPageHeight(TemplateTransform.java:672)
+	at net.sf.dynamicreports.design.transformation.PageTransform.transform(PageTransform.java:44)
+	at net.sf.dynamicreports.design.base.DRDesignReport.transform(DRDesignReport.java:136)
+	at net.sf.dynamicreports.design.base.DRDesignReport.<init>(DRDesignReport.java:111)
+	at net.sf.dynamicreports.design.base.DRDesignReport.<init>(DRDesignReport.java:103)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toJasperReportDesign(JasperReportBuilder.java:273)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.getJasperParameters(JasperReportBuilder.java:302)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toJasperPrint(JasperReportBuilder.java:313)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.export(JasperReportBuilder.java:599)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toPdf(JasperReportBuilder.java:536)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toPdf(JasperReportBuilder.java:532)
+	at com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine.generateReport(PDFReportingEngine.java:128)
+	at connector.CucumberRunnerTest.processReports(CucumberRunnerTest.java:343)
+	at connector.CucumberRunnerTest.tearDown(CucumberRunnerTest.java:157)
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 37 more
+2020-12-10 00:28:32,485 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Attempting to load configurations
+2020-12-10 00:28:32,492 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/dbconfig.xml
+2020-12-10 00:28:32,493 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/dbconfig.xml
+2020-12-10 00:28:32,859 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/drivers.xml
+2020-12-10 00:28:32,860 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/drivers.xml
+2020-12-10 00:28:32,866 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/mailer.xml
+2020-12-10 00:28:32,866 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/mailer.xml
+2020-12-10 00:28:32,873 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/proxy.xml
+2020-12-10 00:28:32,874 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/proxy.xml
+2020-12-10 00:28:32,883 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/execution_conf.xml
+2020-12-10 00:28:32,883 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/execution_conf.xml
+2020-12-10 00:28:32,887 - APP - INFO - com.gsd.sreenidhi.cheetah.database.DBInitializer:Initialize DB Connections
+2020-12-10 00:28:32,888 - APP - INFO - DBInitializer:Database usage Disabled... :( 
+2020-12-10 00:28:32,889 - APP - INFO - CheetahEngine:Loading Properties file..
+2020-12-10 00:28:32,890 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Loading property: resources/properties/application.properties - -1126869938
+2020-12-10 00:28:32,891 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Properties file loaded successfully
+2020-12-10 00:28:32,891 - APP - INFO - CheetahEngine:Properties file loaded successfully.
+2020-12-10 00:28:32,892 - APP - INFO - CheetahEngine:Properties have been successfully sanitized.
+2020-12-10 00:28:32,892 - APP - INFO - CucumberRunnerTest:Suite Start
+2020-12-10 00:28:32,894 - APP - INFO - CucumberRunnerTest:Transaction ID: 3cd6e5df-6f26-43fb-9f2e-d55bce17ee09
+2020-12-10 00:28:32,911 - APP - INFO - CucumberRunnerTest:Transaction Timestamp: Thu Dec 10 00:28:32 IST 2020
+2020-12-10 00:28:32,912 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-10 00:28:32,913 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-10 00:28:32,913 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-10 00:28:32,944 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-10 00:28:32,944 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-10 00:28:32,944 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-10 00:28:32,944 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Attempting to start Video Recording.
+2020-12-10 00:28:32,945 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating Report (VIDEO) Directories: C:/sreenidhi/logs/Reports/VIDEO/sampleStructure/3cd6e5df-6f26-43fb-9f2e-d55bce17ee09
+2020-12-10 00:28:33,342 - APP - INFO - Specialized Screen Recorder:Validating movie file location
+2020-12-10 00:28:33,367 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Video Recording started.
+2020-12-10 00:28:33,367 - APP - INFO - CheetahEngine:Generating Base
+2020-12-10 00:28:33,367 - APP - INFO - CheetahEngine:Initializing DB constants
+2020-12-10 00:28:33,368 - APP - INFO - CheetahEngine:Initializing Cheetah Classes
+2020-12-10 00:28:33,381 - APP - INFO - CheetahEngine:Execution started.. from CheetahEngine.
+2020-12-10 00:28:33,382 - APP - INFO - CheetahEngine:Property initialization complete.
+2020-12-10 00:28:33,383 - APP - INFO - CheetahEngine:Checking Highlights functionality...
+2020-12-10 00:28:33,384 - APP - INFO - CheetahEngine:***** Highlights enabled... ***** 
+2020-12-10 00:28:33,385 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-10 00:28:33,385 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-10 00:28:33,385 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-10 00:28:33,385 - APP - INFO - CheetahEngine:Initializing Base
+2020-12-10 00:28:33,385 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-10 00:28:33,386 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy settings Implementation.
+2020-12-10 00:28:33,386 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:--------------------------------------------------------
+2020-12-10 00:28:33,386 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy Requirement vaildated to false...
+2020-12-10 00:28:33,386 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-10 00:28:33,386 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Implementing HTTP SSL Certificate Trusts
+2020-12-10 00:28:33,785 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Report to CSV File: sampleStructure_12102020_122833.csv
+2020-12-10 00:28:33,786 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/CSV/sampleStructure/Transactions/sampleStructure_12102020_122833.csv
+2020-12-10 00:28:33,786 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Reporting Bean Count: 0
+2020-12-10 00:28:33,787 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/CSV/sampleStructure/sampleStructure_suite.csv
+2020-12-10 00:28:33,787 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/central_new.csv
+2020-12-10 00:28:33,788 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/central.csv
+2020-12-10 00:28:33,790 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/TransactionHistory/2020/testSuite_12072020.csv
+2020-12-10 00:28:33,822 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Initializing PDF Reporting Enging
+2020-12-10 00:28:33,822 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Writing Report to pdf File: sampleStructure_12102020_122833.pdf
+2020-12-10 00:28:33,917 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating PDF File: C:/sreenidhi/logs/Reports/PDF/sampleStructure/sampleStructure_12102020_122833.pdf
+2020-12-10 00:28:33,981 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Title
+2020-12-10 00:28:34,031 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Summary
+2020-12-10 00:28:34,035 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Data
+2020-12-10 00:28:34,120 - APP - INFO - Chart:Image saved to location: ./target/summary
+2020-12-10 00:28:36,051 - APP - INFO - Chart:Converting Image to Byte
+2020-12-10 00:28:36,182 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Data
+2020-12-10 00:28:36,185 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Finalizing Report
+2020-12-10 00:28:36,188 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Finalizing Report
+2020-12-10 00:28:36,189 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Writing Content to PDF File
+2020-12-10 00:28:36,404 - APP - ERROR - Exception: null
+Original Exception: 
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+		org.junit.runners.Suite.runChild(Suite.java:128)
+		org.junit.runners.Suite.runChild(Suite.java:27)
+		org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+		org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+		org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+		org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+		org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+		org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+		org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+		org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+		org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+		org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+		org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+2020-12-10 00:28:36,412 - APP - ERROR - ExtendedCucumberRunner:Exception: null
+Original Exception: 
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+		org.junit.runners.Suite.runChild(Suite.java:128)
+		org.junit.runners.Suite.runChild(Suite.java:27)
+		org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+		org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+		org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+		org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+		org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+		org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+		org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+		org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+		org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+		org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+		org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+	at com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at net.sf.dynamicreports.design.transformation.TemplateTransform.getPageHeight(TemplateTransform.java:672)
+	at net.sf.dynamicreports.design.transformation.PageTransform.transform(PageTransform.java:44)
+	at net.sf.dynamicreports.design.base.DRDesignReport.transform(DRDesignReport.java:136)
+	at net.sf.dynamicreports.design.base.DRDesignReport.<init>(DRDesignReport.java:111)
+	at net.sf.dynamicreports.design.base.DRDesignReport.<init>(DRDesignReport.java:103)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toJasperReportDesign(JasperReportBuilder.java:273)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.getJasperParameters(JasperReportBuilder.java:302)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toJasperPrint(JasperReportBuilder.java:313)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.export(JasperReportBuilder.java:599)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toPdf(JasperReportBuilder.java:536)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toPdf(JasperReportBuilder.java:532)
+	at com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine.generateReport(PDFReportingEngine.java:128)
+	at connector.CucumberRunnerTest.processReports(CucumberRunnerTest.java:343)
+	at connector.CucumberRunnerTest.tearDown(CucumberRunnerTest.java:157)
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 37 more
+2020-12-10 00:50:34,593 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Attempting to load configurations
+2020-12-10 00:50:34,604 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/dbconfig.xml
+2020-12-10 00:50:34,605 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/dbconfig.xml
+2020-12-10 00:50:35,062 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/drivers.xml
+2020-12-10 00:50:35,062 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/drivers.xml
+2020-12-10 00:50:35,067 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/mailer.xml
+2020-12-10 00:50:35,068 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/mailer.xml
+2020-12-10 00:50:35,078 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/proxy.xml
+2020-12-10 00:50:35,078 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/proxy.xml
+2020-12-10 00:50:35,083 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Configuration file identified: resources/conf/execution_conf.xml
+2020-12-10 00:50:35,084 - APP - INFO - com.gsd.sreenidhi.automation.config.Configurator:Loading configuration: resources/conf/execution_conf.xml
+2020-12-10 00:50:35,088 - APP - INFO - com.gsd.sreenidhi.cheetah.database.DBInitializer:Initialize DB Connections
+2020-12-10 00:50:35,089 - APP - INFO - DBInitializer:Database usage Disabled... :( 
+2020-12-10 00:50:35,090 - APP - INFO - CheetahEngine:Loading Properties file..
+2020-12-10 00:50:35,091 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Loading property: resources/properties/application.properties - -1126869938
+2020-12-10 00:50:35,091 - APP - INFO - com.gsd.sreenidhi.utils.FileUtils:Properties file loaded successfully
+2020-12-10 00:50:35,091 - APP - INFO - CheetahEngine:Properties file loaded successfully.
+2020-12-10 00:50:35,091 - APP - INFO - CheetahEngine:Properties have been successfully sanitized.
+2020-12-10 00:50:35,091 - APP - INFO - CucumberRunnerTest:Suite Start
+2020-12-10 00:50:35,094 - APP - INFO - CucumberRunnerTest:Transaction ID: 77e5396d-1d17-445e-8cae-8ff3a7abcf01
+2020-12-10 00:50:35,115 - APP - INFO - CucumberRunnerTest:Transaction Timestamp: Thu Dec 10 00:50:34 IST 2020
+2020-12-10 00:50:35,127 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-10 00:50:35,128 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-10 00:50:35,130 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-10 00:50:35,185 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-10 00:50:35,185 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-10 00:50:35,185 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-10 00:50:35,185 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Attempting to start Video Recording.
+2020-12-10 00:50:35,219 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating Report (VIDEO) Directories: C:/sreenidhi/logs/Reports/VIDEO/sampleStructure/77e5396d-1d17-445e-8cae-8ff3a7abcf01
+2020-12-10 00:50:35,651 - APP - INFO - Specialized Screen Recorder:Validating movie file location
+2020-12-10 00:50:35,684 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.Media:Video Recording started.
+2020-12-10 00:50:35,684 - APP - INFO - CheetahEngine:Generating Base
+2020-12-10 00:50:35,684 - APP - INFO - CheetahEngine:Initializing DB constants
+2020-12-10 00:50:35,684 - APP - INFO - CheetahEngine:Initializing Cheetah Classes
+2020-12-10 00:50:35,698 - APP - INFO - CheetahEngine:Execution started.. from CheetahEngine.
+2020-12-10 00:50:35,701 - APP - INFO - CheetahEngine:Property initialization complete.
+2020-12-10 00:50:35,702 - APP - INFO - CheetahEngine:Checking Highlights functionality...
+2020-12-10 00:50:35,702 - APP - INFO - CheetahEngine:***** Highlights enabled... ***** 
+2020-12-10 00:50:35,703 - APP - INFO - CheetahEngine:***** Cheetah Supports Video Capture split by test case... ***** 
+2020-12-10 00:50:35,703 - APP - INFO - CheetahEngine:***** Validating user settings for Split video ***** 
+2020-12-10 00:50:35,704 - APP - INFO - CheetahEngine:***** Video Capture will be split by test case... ***** 
+2020-12-10 00:50:35,705 - APP - INFO - CheetahEngine:Initializing Base
+2020-12-10 00:50:35,705 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-10 00:50:35,706 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy settings Implementation.
+2020-12-10 00:50:35,708 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:--------------------------------------------------------
+2020-12-10 00:50:35,709 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Proxy Requirement vaildated to false...
+2020-12-10 00:50:35,709 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:###########################################################################
+2020-12-10 00:50:35,709 - APP - INFO - com.gsd.sreenidhi.cheetah.engine.FrameworkOps:Implementing HTTP SSL Certificate Trusts
+2020-12-10 00:50:36,327 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Report to CSV File: sampleStructure_12102020_125036.csv
+2020-12-10 00:50:36,328 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/CSV/sampleStructure/Transactions/sampleStructure_12102020_125036.csv
+2020-12-10 00:50:36,332 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Reporting Bean Count: 0
+2020-12-10 00:50:36,332 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/CSV/sampleStructure/sampleStructure_suite.csv
+2020-12-10 00:50:36,332 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating CSV File: C:/sreenidhi/logs/Reports/central_new.csv
+2020-12-10 00:50:36,333 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/central.csv
+2020-12-10 00:50:36,334 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.csv.CSVReportingEngine:Writing Suite Results to CSV File: C:/sreenidhi/logs/Reports/TransactionHistory/2020/testSuite_12072020.csv
+2020-12-10 00:50:36,337 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Initializing PDF Reporting Enging
+2020-12-10 00:50:36,337 - APP - INFO - class com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Writing Report to pdf File: sampleStructure_12102020_125036.pdf
+2020-12-10 00:50:36,384 - APP - INFO - com.gsd.sreenidhi.utils.CSVUtil:Creating PDF File: C:/sreenidhi/logs/Reports/PDF/sampleStructure/sampleStructure_12102020_125036.pdf
+2020-12-10 00:50:36,462 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Title
+2020-12-10 00:50:36,524 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Summary
+2020-12-10 00:50:36,528 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Data
+2020-12-10 00:50:36,616 - APP - INFO - Chart:Image saved to location: ./target/summary
+2020-12-10 00:50:38,825 - APP - INFO - Chart:Converting Image to Byte
+2020-12-10 00:50:38,894 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Generating Data
+2020-12-10 00:50:38,895 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Finalizing Report
+2020-12-10 00:50:38,900 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Finalizing Report
+2020-12-10 00:50:38,900 - APP - INFO - com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine:Writing Content to PDF File
+2020-12-10 00:50:39,129 - APP - ERROR - Exception: null
+Original Exception: 
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+		org.junit.runners.Suite.runChild(Suite.java:128)
+		org.junit.runners.Suite.runChild(Suite.java:27)
+		org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+		org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+		org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+		org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+		org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+		org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+		org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+		org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+		org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+		org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+		org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+2020-12-10 00:50:39,133 - APP - ERROR - ExtendedCucumberRunner:Exception: null
+Original Exception: 
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+		com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+		org.junit.runners.Suite.runChild(Suite.java:128)
+		org.junit.runners.Suite.runChild(Suite.java:27)
+		org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+		org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+		org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+		org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+		org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+		org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+		org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+		org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+		org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+		org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+		org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+		org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.runPredefinedMethods(ExtendedCucumberRunner.java:51)
+	at com.gsd.sreenidhi.cheetah.runner.ExtendedCucumberRunner.run(ExtendedCucumberRunner.java:71)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:157)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
+	at net.sf.dynamicreports.design.transformation.TemplateTransform.getPageHeight(TemplateTransform.java:672)
+	at net.sf.dynamicreports.design.transformation.PageTransform.transform(PageTransform.java:44)
+	at net.sf.dynamicreports.design.base.DRDesignReport.transform(DRDesignReport.java:136)
+	at net.sf.dynamicreports.design.base.DRDesignReport.<init>(DRDesignReport.java:111)
+	at net.sf.dynamicreports.design.base.DRDesignReport.<init>(DRDesignReport.java:103)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toJasperReportDesign(JasperReportBuilder.java:273)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.getJasperParameters(JasperReportBuilder.java:302)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toJasperPrint(JasperReportBuilder.java:313)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.export(JasperReportBuilder.java:599)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toPdf(JasperReportBuilder.java:536)
+	at net.sf.dynamicreports.jasper.builder.JasperReportBuilder.toPdf(JasperReportBuilder.java:532)
+	at com.gsd.sreenidhi.cheetah.reporting.pdf.PDFReportingEngine.generateReport(PDFReportingEngine.java:128)
+	at connector.CucumberRunnerTest.processReports(CucumberRunnerTest.java:343)
+	at connector.CucumberRunnerTest.tearDown(CucumberRunnerTest.java:157)
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 37 more

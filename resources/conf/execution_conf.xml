@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<execution_conf>
+	<!-- 
+		Execution Environment Configurations:
+		Possible values: localhost, terrain, saucelabs
+	 -->
+	<execution_env>localhost</execution_env>
+	
+	<!-- 
+		Terrain Configurations
+		Required only if execution env = terrain 
+	-->
+	<terrain-link></terrain-link>
+	<terrain-port>5555</terrain-port>
+	<hub_port>4444</hub_port>
+	
+	<!-- 
+		Saucelabs Configurations
+		Required only if execution eve= saucelabs
+	 -->
+	 <saucelabs_username></saucelabs_username>
+	 <saucelabs_access-key></saucelabs_access-key>
+	 
+	 
+	 <!-- 
+	 	Mobile Execution
+	  -->
+	  <appium-remote-url>0.0.0.0</appium-remote-url>
+	  <appium-remote-port>4723</appium-remote-port>
+</execution_conf>
