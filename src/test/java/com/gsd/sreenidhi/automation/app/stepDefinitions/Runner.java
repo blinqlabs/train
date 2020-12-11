@@ -25,11 +25,6 @@ public class Runner extends CheetahEngine{
     public void processExecution(cucumber.api.Scenario scenarioImpl) throws Exception {
     	CheetahEngine.processPostAction(scenarioImpl, CheetahEngine.props.getProperty("app.name"));
     }
-    
-
-/*this is java example*/
-//this us hav
-    
-    
+     //shjahs
 
 }
