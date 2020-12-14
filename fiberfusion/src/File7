@@ -1,0 +1,16 @@
+To Start MySQL Server:
+# mysql
+mysql> create database reva;
+mysql> show databases;
+mysql> use reva;
+mysql> create table employee ( name varchar(25), age int);
+mysql> insert into employee values (“e1”,21);
+mysql> insert into employee values (“e2”,22);
+mysql> exit;
+#.....(The MySQL server is now started and a database along with a table called “employee” is ready for use).
+
+Apache Http Server:
+The web server we are using here is Apache Http Server. It is freely downloadable from the site www.apache.org.
+Once you have downloaded the installer, double click on that and install it in to your system.
+Then click on start to start your server. Then open an Internet explorer and type http://localhost:80/.
+The port number 80 is optional in the URL.
