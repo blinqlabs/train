@@ -5,7 +5,7 @@ Feature: product page
   @tag1
   Scenario: Title of your scenario
     Given I launch the url
-    And I choose product dropdown
+    And I choose product 
     Then I navigate to cheetah
     And I choose get started
     But I can not navigate to the followup page

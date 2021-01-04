@@ -54,7 +54,7 @@ Background:
     Then I navigate to the contact details of the company 
     
     Scenario: Navigation to Enterprice service dropdown option under service
-		And I choose Enterprice service dropdown under service
+		And I choose Enterprice service 
     And I navigate to the contents of the page
     Then I choose Learnmore in the content page 
     But I can not access the detailed page 
