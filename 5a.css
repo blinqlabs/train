@@ -1,0 +1,28 @@
+b{
+	display: block;
+	color: white;
+	font-style:italic;
+}
+RU{
+	background-color: #DCDCDC;
+}
+a{
+	display: block;
+	color: black;
+	font-style: italic;
+}
+s{
+	display: block;
+	color: red;
+	font-style: italic;
+}
+u{
+	display: block;
+	color: green;
+	font-style: italic;
+}
+i{
+	display: block;
+	color: blue;
+	font-style: italic;
+}
